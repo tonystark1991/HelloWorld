@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: rgb(222,222,222);
+	font-family: Microsoft Yahei;
+}
+
+header{
+	height: 60px;
+	background-color: rgb(51,51,51);
+}
+
+.navbar-menu ul{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.navbar-menu ul li{
+	display: inline;
+	margin-right: 15px;
+}
+
+.navbar-menu a{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navbar-menu a:hover{
+	color: darkgray;
+}
+
+article, .siderbar{
+	margin: 20px;
+	background-color: white;
+	box-shadow: 15px 15px 15px lightgray;
+	padding: 20px;
+	line-height: 1.5em;
+}
+
+article p{
+	text-indent: 2em;
+}
+
+article ul li{
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+article table{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 3px;
+}
+
+article table th{
+	background-color: black;
+	color: white;
+}
+
+article table tr:last-child{
+	background-color: lightgray;
+}
+
+article table td a:last-child{
+	color: blue;
+}
+
+.btn{
+	height: 40px;
+	width: 100%;
+	background-color: rgb(51,85,208);
+	border-radius: 15px;
+}
+footer{
+	height: 70px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 14px;
+}
